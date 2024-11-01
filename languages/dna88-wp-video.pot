@@ -1,0 +1,464 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Video Connect\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-03-15 09:46+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.6; wp-6.4.3\n"
+"X-Domain: dna88-wp-video"
+
+#: wp-video-comment-main.php:874
+#, php-format
+msgid "%s  %s  %s"
+msgstr ""
+
+#: video_bubble_options.php:188 video_bubble_options.php:196
+#: wp-video-comment-main.php:728 wp-video-comment-main.php:736
+#: video-widgets/templates/admin/video_bubble_options.php:183
+#: video-widgets/templates/admin/video_bubble_options.php:191
+msgid "( Leave empty if you want to apply Default )"
+msgstr ""
+
+#: video_bubble_options.php:180 wp-video-comment-main.php:720
+#: video-widgets/templates/admin/video_bubble_options.php:175
+msgid "( Leave empty if you want to apply Height 170px )"
+msgstr ""
+
+#: wp-video-comment-main.php:507
+msgid "( Leave empty if you want to apply height auto )"
+msgstr ""
+
+#: wp-video-comment-main.php:499
+msgid "( Leave empty if you want to apply width 100% )"
+msgstr ""
+
+#: video_bubble_options.php:172 wp-video-comment-main.php:712
+#: video-widgets/templates/admin/video_bubble_options.php:167
+msgid "( Leave empty if you want to apply width 170px )"
+msgstr ""
+
+#: wp-video-comment-main.php:464
+msgid "( Please also enable Mute Video to make sure Auto play works )"
+msgstr ""
+
+#: wp-video-comment-main.php:292
+msgid ""
+"** Video message requires SSL certificate to work. Please make sure that "
+"your site uses SSL (https://)."
+msgstr ""
+
+#: wp-video-comment-view.php:83 wp-video-comment-view.php:84
+msgid "Add New"
+msgstr ""
+
+#: wp-video-comment-main.php:459
+msgid "Allow Autoplay"
+msgstr ""
+
+#: video_bubble_options.php:148 wp-video-comment-main.php:452
+#: wp-video-comment-main.php:688
+#: video-widgets/templates/admin/video_bubble_options.php:143
+msgid "Allow Fullscreen Play"
+msgstr ""
+
+#: wp-video-comment-main.php:485
+msgid "Allow Video Loop"
+msgstr ""
+
+#: wp-video-comment-main.php:462
+msgid "Allow video to autoplay control enable/disable."
+msgstr ""
+
+#: video_bubble_options.php:151 wp-video-comment-main.php:455
+#: wp-video-comment-main.php:691
+#: video-widgets/templates/admin/video_bubble_options.php:146
+msgid "Allow video to fullscreen control enable/disable "
+msgstr ""
+
+#: video_bubble_options.php:194 wp-video-comment-main.php:734
+#: video-widgets/templates/admin/video_bubble_options.php:189
+msgid "Bottom of the Browser Window"
+msgstr ""
+
+#: wp-video-comment-main.php:352
+msgid "Cancel"
+msgstr ""
+
+#: wp-video-comment-main.php:284
+msgid "CF7 Integration Help"
+msgstr ""
+
+#: wp-video-comment-main.php:448
+msgid "Check to enable video for single product page "
+msgstr ""
+
+#: wp-video-comment-main.php:441
+msgid "Check to enable video for your stor/shop page "
+msgstr ""
+
+#: wp-video-comment-main.php:280
+msgid "Contact Form 7 Settings"
+msgstr ""
+
+#: wp-video-comment-main.php:360
+msgid "Delete"
+msgstr ""
+
+#: wp-video-comment-main.php:336
+msgid "Delete video?"
+msgstr ""
+
+#. Author of the plugin
+msgid "dna88"
+msgstr ""
+
+#: wp-video-comment-view.php:51 wp-video-comment-view.php:52
+msgid "Download Video"
+msgstr ""
+
+#: wp-video-comment-view.php:86
+msgid "Edit Video Message for WordPress Record"
+msgstr ""
+
+#: wp-video-comment-main.php:296
+msgid "Enable"
+msgstr ""
+
+#: wp-video-comment-main.php:299
+msgid "Enable this option a new field will be added with Comments "
+msgstr ""
+
+#: wp-video-comment-main.php:438
+msgid "Enable Video on Shop Page"
+msgstr ""
+
+#: wp-video-comment-main.php:445
+msgid "Enable Video Product Page"
+msgstr ""
+
+#: wp-video-comment-help.php:6
+msgid "Getting Started"
+msgstr ""
+
+#: wp-video-comment-main.php:431
+msgid ""
+"Go to Edit a Product and you will find the option to assign a video for that "
+"product on the right side panel."
+msgstr ""
+
+#: wp-video-comment-view.php:69
+msgid "Go to Form Settings"
+msgstr ""
+
+#: video_bubble_options.php:178 wp-video-comment-main.php:718
+#: video-widgets/templates/admin/video_bubble_options.php:173
+msgid "Height"
+msgstr ""
+
+#: wp-video-comment-main.php:505
+msgid "Height for Single Product Page (Video)"
+msgstr ""
+
+#: video_bubble_options.php:59 wp-video-comment-main.php:600
+#: video-widgets/templates/admin/video_bubble_options.php:54
+msgid "Hello!"
+msgstr ""
+
+#: wp-video-comment-main.php:492
+msgid "Hide Video Controls"
+msgstr ""
+
+#: video_bubble_options.php:66 wp-video-comment-main.php:468
+#: wp-video-comment-main.php:607
+#: video-widgets/templates/admin/video_bubble_options.php:61
+msgid "Hide Video Title"
+msgstr ""
+
+#: video_bubble_options.php:69 wp-video-comment-main.php:471
+#: wp-video-comment-main.php:610
+#: video-widgets/templates/admin/video_bubble_options.php:64
+msgid "Hide video title and other information"
+msgstr ""
+
+#: wp-video-comment-help.php:51
+msgid "How can I emmbed a youtube video?"
+msgstr ""
+
+#: wp-video-comment-help.php:17
+msgid "How can I enter video message field to my contact forms?"
+msgstr ""
+
+#: wp-video-comment-help.php:26
+msgid "How can I set video field with Contact from 7 email  setting?"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://dna88.com/"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://wordpress.org/plugins/video-connect/"
+msgstr ""
+
+#: wp-video-comment-help.php:43
+msgid "I received a email but not video message?"
+msgstr ""
+
+#: wp-video-comment-help.php:37
+msgid ""
+"If a user records a video message, you will receive a link in the email sent "
+"by Contact Form 7 Or you can find it on contact forms the sub menu of video "
+"message for wordpress"
+msgstr ""
+
+#: wp-video-comment-main.php:344
+msgid ""
+"If you have not saved this recording, you will not be able to restore it."
+msgstr ""
+
+#: wp-video-comment-view.php:95
+msgid "Insert to Video Message for WordPress Record"
+msgstr ""
+
+#: wp-video-comment-help.php:45
+msgid ""
+"Make sure you add this [dna88_wpvideomessage] shortcode to your contact form "
+"7 mail body. Then if a user records a video message, you will receive a link "
+"in the email sent by Contact Form 7"
+msgstr ""
+
+#: video_bubble_options.php:162 wp-video-comment-main.php:475
+#: wp-video-comment-main.php:702
+#: video-widgets/templates/admin/video_bubble_options.php:157
+msgid "Mute Video"
+msgstr ""
+
+#: video_bubble_options.php:165 wp-video-comment-main.php:478
+#: wp-video-comment-main.php:705
+#: video-widgets/templates/admin/video_bubble_options.php:160
+msgid "Mute video"
+msgstr ""
+
+#: wp-video-comment-help.php:19
+msgid ""
+"Navigate to Contact form 7->Add/Edit a form in wp-admin and Press the "
+"WPVideo Message button to insert shortcode in the form."
+msgstr ""
+
+#: wp-video-comment-help.php:28
+msgid ""
+"Navigate to Contact form 7->Add/Edit. Select the Mail tab and add "
+"[dna88_wpvideomessage] this shortcode with your mail body."
+msgstr ""
+
+#: wp-video-comment-view.php:85
+msgid "New Video Message for WordPress Record"
+msgstr ""
+
+#: wp-video-comment-view.php:90
+msgid "No Video Message for WordPress Records found"
+msgstr ""
+
+#: wp-video-comment-view.php:91
+msgid "No Video Message for WordPress Records found in Trash"
+msgstr ""
+
+#: wp-video-comment-main.php:441 wp-video-comment-main.php:485
+msgid "Pro Feature"
+msgstr ""
+
+#: video_bubble_options.php:172 video_bubble_options.php:180
+#: video_bubble_options.php:188 video_bubble_options.php:196
+#: wp-video-comment-main.php:499 wp-video-comment-main.php:507
+#: wp-video-comment-main.php:712 wp-video-comment-main.php:720
+#: wp-video-comment-main.php:728 wp-video-comment-main.php:736
+#: video-widgets/templates/admin/video_bubble_options.php:167
+#: video-widgets/templates/admin/video_bubble_options.php:175
+#: video-widgets/templates/admin/video_bubble_options.php:183
+#: video-widgets/templates/admin/video_bubble_options.php:191
+msgid "px"
+msgstr ""
+
+#: wp-video-comment-main.php:320
+msgid "Record Message"
+msgstr ""
+
+#: wp-video-comment-view.php:20
+msgid "Record Options"
+msgstr ""
+
+#: wp-video-comment-main.php:328
+msgid "Record, Review, Save"
+msgstr ""
+
+#: wp-video-comment-main.php:304
+msgid "Recording Max Time"
+msgstr ""
+
+#: video_bubble_options.php:134 wp-video-comment-main.php:674
+#: video-widgets/templates/admin/video_bubble_options.php:129
+msgid "Replay Video"
+msgstr ""
+
+#: video_bubble_options.php:137 wp-video-comment-main.php:677
+#: video-widgets/templates/admin/video_bubble_options.php:132
+msgid "Replay video"
+msgstr ""
+
+#: video_bubble_options.php:186
+#: video-widgets/templates/admin/video_bubble_options.php:181
+msgid "Right of the Browser Window"
+msgstr ""
+
+#: wp-video-comment-view.php:89
+msgid "Search Video Message for WordPress Records"
+msgstr ""
+
+#: wp-video-comment-main.php:306
+msgid "Seconds"
+msgstr ""
+
+#: class-dna88-free-plugin-upgrade-notice.php:100 wp-video-comment-main.php:283
+msgid "Settings"
+msgstr ""
+
+#: wp-video-comment-main.php:726
+msgid "Sidebar of the Browser Window"
+msgstr ""
+
+#: class-dna88-free-plugin-upgrade-notice.php:104
+msgid "Support"
+msgstr ""
+
+#: video_bubble_options.php:61 wp-video-comment-main.php:602
+#: video-widgets/templates/admin/video_bubble_options.php:56
+msgid "Text"
+msgstr ""
+
+#: wp-video-comment-help.php:53
+msgid ""
+"To add a video widget to your content like a page or post, you have to "
+"create a new video widget by clicking Add new video widget. Add the video "
+"and put the youtube URL on the Youtube URL field. Set the video player mode "
+"to landscape or portrait then publish or update it. Now copy your short code "
+"and past it to your desire section."
+msgstr ""
+
+#: wp-video-comment-view.php:96
+msgid "Uploaded to this Video Message for WordPress Record"
+msgstr ""
+
+#: wp-video-comment-main.php:554
+msgid "Video Bubble Settings"
+msgstr ""
+
+#: wp-video-comment-main.php:368
+msgid "Video camera is not available, Connect your camera or webcam"
+msgstr ""
+
+#. Name of the plugin
+#: wp-video-comment-main.php:81 wp-video-comment-main.php:82
+msgid "Video Connect"
+msgstr ""
+
+#: wp-video-comment-help.php:12
+msgid ""
+"Video Connect is an addon for contact form 7. This plugin adds a video "
+"message recorder field to your CF7 forms. Your site users can record a video "
+"message that is saved in the WordPress backend and you can listen to that "
+"any time. Compatible with all Modern Browsers and a Beautiful modern User "
+"Interface."
+msgstr ""
+
+#: wp-video-comment-main.php:429
+msgid "Video Connect Settings"
+msgstr ""
+
+#: wp-video-comment-main.php:489
+msgid "Video Controls"
+msgstr ""
+
+#: wp-video-comment-main.php:482
+msgid "Video Loop"
+msgstr ""
+
+#. Description of the plugin
+msgid "Video Message for WordPress Contact Form 7"
+msgstr ""
+
+#: wp-video-comment-view.php:94
+msgid "Video Message for WordPress Record Attributes"
+msgstr ""
+
+#: wp-video-comment-view.php:81 wp-video-comment-view.php:82
+msgid "Video Message for WordPress Records"
+msgstr ""
+
+#: wp-video-comment-view.php:93
+msgid "Video Message for WordPress Records Archives"
+msgstr ""
+
+#: wp-video-comment-view.php:36
+msgid "Video Message:"
+msgstr ""
+
+#: video_bubble_options.php:141 wp-video-comment-main.php:681
+#: video-widgets/templates/admin/video_bubble_options.php:136
+msgid "Video Play/Pause"
+msgstr ""
+
+#: video_bubble_options.php:144 wp-video-comment-main.php:684
+#: video-widgets/templates/admin/video_bubble_options.php:139
+msgid "Video Play/Pause Control"
+msgstr ""
+
+#: wp-video-comment-view.php:92 wp-video-comment-view.php:97
+msgid "Video Records"
+msgstr ""
+
+#: video_bubble_options.php:155 video_bubble_options.php:158
+#: wp-video-comment-main.php:695 wp-video-comment-main.php:698
+#: video-widgets/templates/admin/video_bubble_options.php:150
+#: video-widgets/templates/admin/video_bubble_options.php:153
+msgid "Video Replay"
+msgstr ""
+
+#: wp-video-comment-view.php:87 wp-video-comment-view.php:88
+msgid "View Video Message for WordPress Record"
+msgstr ""
+
+#: wp-video-comment-help.php:5
+msgid "Welcome to the Video Connect"
+msgstr ""
+
+#: wp-video-comment-help.php:11
+msgid "What is Video Connect?"
+msgstr ""
+
+#: wp-video-comment-help.php:35
+msgid "Where Can I Listen to my video Message?"
+msgstr ""
+
+#: video_bubble_options.php:170 wp-video-comment-main.php:710
+#: video-widgets/templates/admin/video_bubble_options.php:165
+msgid "Width"
+msgstr ""
+
+#: wp-video-comment-main.php:497
+msgid "Width for Single Product Page (Video)"
+msgstr ""
+
+#: wp-video-comment-main.php:312
+msgid ""
+"You can leave a live video record with your message. Connect your webcam and "
+"press the button below."
+msgstr ""

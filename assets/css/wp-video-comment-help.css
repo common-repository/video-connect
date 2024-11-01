@@ -1,0 +1,87 @@
+.dna88-wpvideo-section-block {
+    background: #fff;
+    padding: 20px;
+    margin: 20px 20px 20px 0px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+.dna88-accordion {
+    display: flex;
+    flex-direction: column;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+      Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+
+    margin: 50px auto;
+  }
+  
+  .dna88-accordion-item {
+    margin-top: 10px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    background: #fff;
+  }
+  
+  .dna88-accordion-item-title {
+    position: relative;
+    margin: 0;
+    display: flex;
+    width: 100%;
+    font-size: 15px;
+    cursor: pointer;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    padding: 14px 20px;
+    box-sizing: border-box;
+    align-items: center;
+  }
+  
+  .dna88-accordion-item-desc {
+    display: none;
+    font-size: 14px;
+    line-height: 18px;
+    color: #333;
+    border-top: 1px dashed #ddd;
+    padding: 10px 20px 20px;
+    box-sizing: border-box;
+  }
+  
+  .dna88-accordion-item input[type="checkbox"] {
+    position: absolute;
+    height: 0;
+    width: 0;
+    opacity: 0;
+  }
+  .dna88-accordion-item input[type="checkbox"]:checked ~ .dna88-accordion-item-desc {
+    display: block;
+  }
+  
+  .dna88-accordion-item input[type="checkbox"] ~ .dna88-accordion-item-title .icon:after {
+    content: "+";
+  }
+  
+  .dna88-accordion-item
+    input[type="checkbox"]:checked
+    ~ .dna88-accordion-item-title
+    .icon:after {
+    content: "-";
+  }
+  
+  .dna88-accordion-item input[type="checkbox"]:checked ~ .dna88-accordion-item-title {
+    font-weight: bold;
+  }
+  
+  .dna88-accordion-item:first-child {
+    margin-top: 0;
+  }
+  .dna88-col-6 {
+    flex: 0 0 auto;
+    min-width: 50%;
+    display: inline-block;
+    float: right;
+    margin-bottom: 100px;
+  }
+  .icon {
+    margin-left: 14px;
+    font-weight: normal;
+  }
+    

@@ -1,0 +1,225 @@
+.qc_video_container .videoconnect_videourl_input {
+    width: 100%;
+}
+.qc_video_container label{
+    font-weight: 700;
+}
+.qc_video_upload_main, .qc_video_recorder{
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    height: 100%;
+    align-items: center;
+}
+
+.qc_video_recorder{}
+.qc_video_display{}
+.qc_video_or{margin: 0px 10px;}
+#qc_video_upload, #qc_video_record{
+    display: flex;
+    align-items: center;
+}
+.qc_video_recoding_details{}
+.qc_video_display {
+    margin: 0 auto;
+    position: relative;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    text-align: center;
+}
+.qc_video_record_div .bot_recoding_animation h2{}
+.qc_video_record_div .bot_recoding_animation{
+    text-align: center;
+}
+.qc_video_record_div .bot_recoding_animation canvas{
+    display:block;
+}
+.qc_video_record_div .bot_recoding_animation p{}
+.qc_video_record_div .bot_recoding_animation button{}
+.qc_video_record_div .video_countdown{
+  display: none !important;
+}
+.qc_video_template_wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.qc_video_template_preview{
+
+}
+.qc_video_template_preview img{
+    width: 300px;
+}
+
+.qc_tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.qc_tooltip .qc_tooltiptext {
+    visibility: hidden;
+    width: 140px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 150%;
+    left: 50%;
+    margin-left: -75px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.qc_tooltip .qc_tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+.qc_tooltip:hover .qc_tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+.qc_video_template_settings table{}
+.qc_video_template_settings .qc_video_call_to_action input[type=text]{
+    width: 400px;
+}
+.qc_video_remove_button{
+    position: absolute;
+    top: 17px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.qc_voice_video_wrapper .qc_voice_video_upload_wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+
+
+
+.qc_video_bubble_template_wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.qc_video_bubble_template_settings .qc_video_bubble_call_to_action input[type=text]{
+    width: 400px;
+}
+.qc_video_bubble_remove_button{
+    position: absolute;
+    top: 17px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.qc_video_bubble_wrapper .qc_video_bubble_upload_wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#qc_video_bubble_upload, #qc_video_bubble_record{
+    display: flex;
+    align-items: center;
+}
+
+.qc_video_bubble_upload_main, .qc_video_bubble_recorder {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    height: 100%;
+    align-items: center;
+}
+
+.qc_video_bubble_container .videoconnect_videourl_input {
+    width: 100%;
+}
+
+.qc_video_bubble_container label {
+    font-weight: 700;
+}
+
+.qc_video_bubble_display {
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+}
+
+
+.qc_video_bubble_bubble_recorder_wrap .form-table {
+    margin-top: 0px;
+    background: #fff;
+    border-radius: 2px;
+    box-shadow: 0 0 0 1px rgb(0 0 0 / 7%), 0 1px 1px rgb(0 0 0 / 4%);
+}
+.qc_video_bubble_bubble_recorder_wrap .form-table tr {
+    border-bottom: 1px solid #eee;
+    display: block;
+}
+.qc_video_bubble_bubble_recorder_wrap .form-table th {
+    padding: 20px 10px 20px 20px;
+}
+
+.qc_video_bubble_logo_image_wrap{
+    display: block;
+    width: 100%;
+    padding: 15px 0px;
+}
+
+
+img#qc_video_bubble_logo_image {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 4px;
+    height: 150px;
+    width: 150px;
+}
+
+
+.qc_video_bubble-blocks {
+   /* background: #f5f5f5;*/
+    padding: 12px 10px;
+    margin-right: 0 !important;
+}
+
+.qc_video_bubble_logo_image_wrap .qc_video_bubble-blocks {
+    margin: 0 10px 15px 0;
+    width: 100%;
+}
+
+.qc_video_bubble-blocks .qc_video_bubble_row {
+    padding: 12px 10px;
+    margin-right: 0 !important;
+}
+
+div#qc_video_bubble-show-pages-list {
+    padding-left: 100px;
+}
+
+.qc_video_bubble_container{
+    margin-bottom: 15px;
+}
+
+#qc_video_bubble_display_url{
+    max-width: 300px;
+}
+
+
+

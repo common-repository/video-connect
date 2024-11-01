@@ -1,0 +1,264 @@
+
+
+.qc_video_bubble_wrapper {
+  transition: all 0.3s;
+  transform-origin: bottom right;
+  width: 170px;
+  height: 170px;
+  position: fixed;
+  bottom: 30px;
+  cursor: pointer;
+  z-index: 9999;
+}
+.qc_video_bubble_wrapper.qc_left {
+  left: 30px;
+}
+.qc_video_bubble_wrapper.qc_right {
+  right: 30px;
+}
+.qc_video_bubble_wrapper iframe,
+.qc_video_bubble_wrapper video {
+  border-radius: 100%;
+  border: 3px solid #1e73be;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.qc_video_bubble_wrapper .qc_video_bubble_text {
+  position: absolute;
+  top: 50%;
+  z-index: 99;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  width: 100%;
+  text-align: center;
+  font-size: 25px;
+  margin: 0;
+}
+.qc_video_bubble_wrapper .qc_video_bubble_close {
+  position: absolute;
+  /*top: -6px;
+  right: 15px;*/
+  top: -10px;
+  right: -5px;
+  opacity: 0;
+  transition: 0.3s;
+}
+.qc_video_bubble_wrapper:hover .qc_video_bubble_close {
+  opacity: 1;
+}
+.qc_video_bubble_wrapper .qc_video_bubble_close i {
+  font-size: 25px;
+}
+.qc_video_bubble_wrapper-resize {
+  transform: scale(0.67);
+}
+.qc_video_bubble_wrapper [class*="qc_video_bubble_full-"] {
+  display: none;
+}
+.qc_video_bubble_wrapper [class*="qc_video_bubble_full-"] .qc_video_bubble_media-action {
+  display: none;
+}
+.qc_video_bubble_wrapper .qc_video_bubble_full-close {
+  display: none;
+}
+.qc_video_bubble_wrapper-full {
+  width: 300px;
+  height: 500px;
+}
+.qc_video_bubble_wrapper-full iframe,
+.qc_video_bubble_wrapper-full video {
+  border-radius: 10px;
+  border: none;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.qc_video_bubble_wrapper-full .qc_video_bubble_text {
+  display: none;
+}
+.qc_video_bubble_wrapper-full .qc_video_bubble_close {
+  display: none;
+}
+.qc_video_bubble_wrapper-full.qc_video_bubble_wrapper-resize {
+  transform: inherit;
+}
+.qc_video_bubble_wrapper-full [class*="qc_video_bubble_full-"] {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #161e2e78;
+  color: #fff;
+  transition: all 0.5s;
+}
+.qc_video_bubble_wrapper-full [class*="qc_video_bubble_full-"] i {
+  font-size: 25px;
+}
+.qc_video_bubble_wrapper-full [class*="qc_video_bubble_full-"]:hover {
+  background-color: #161e2e9a;
+}
+.qc_video_bubble_wrapper-full .qc_video_bubble_full-close {
+  top: 5px;
+  right: 5px;
+}
+.qc_video_bubble_wrapper-full .qc_video_bubble_full-pause,
+.qc_video_bubble_wrapper-full .qc_video_bubble_full-play {
+  width: 60px;
+  height: 60px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.qc_video_bubble_wrapper-full .qc_video_bubble_media-action {
+  display: flex;
+  flex-direction: column;
+  top: 5px;
+  left: 5px;
+  position: absolute;
+}
+.qc_video_bubble_wrapper-full .qc_video_bubble_media-action [class*="qc_video_bubble_full-"] {
+  position: unset;
+  margin-bottom: 5px;
+}
+.qc_video_bubble_wrapper .qc_video_bubble-btn {
+  display: none;
+}
+.qc_video_bubble_wrapper.qc_video_bubble_wrapper-full .qc_video_bubble-btn {
+  display: block;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translate(-50%);
+  text-align: center;
+  width: 100%;
+  transition: all 0.5s;
+}
+.qc_video_bubble_wrapper.qc_video_bubble_wrapper-full .qc_video_bubble-btn a {
+  text-decoration: none;
+  text-decoration: none;
+  padding: 10px 15px;
+
+  width: 75%;
+  color: #fff;
+  display: block;
+  border-radius: 5px;
+  background-color: #7432ff;
+  margin: 0 auto;
+  transition: 0.3s;
+}
+.qc_video_bubble_wrapper.qc_video_bubble_wrapper-full .qc_video_bubble-btn a:hover {
+  background-color: #161e2e;
+}
+
+/* change button start */
+.qc_video_bubble_change-video {
+  display: none;
+}
+
+.qc_video_bubble_wrapper-full .qc_video_bubble_change-video {
+  display: flex;
+  gap: 6px;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+  bottom: 10px;
+  transition: 0.3s;
+  padding-left: 10px;
+  padding-right: 10px;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+}
+
+.qc_video_bubble_wrapper-full .qc_video_bubble_change-video [class*="video"] a {
+  background-color: #7432ff;
+  transition: 0.3s;
+  display: block;
+  padding: 8px 20px;
+  text-align: center;
+  color: #fff;
+  font-size: 16px;
+  text-decoration: none;
+}
+.qc_video_bubble_wrapper-full .qc_video_bubble_change-video [class*="video"] a:hover {
+  background-color: #161e2e;
+}
+/* change button end */
+
+.qc_video_bubble-left {
+  left: 30px;
+  right: auto;
+}
+
+.qc_video_bubble-left.qc_video_bubble_wrapper {
+  transform-origin: bottom left;
+}
+
+.qc_video_bubble_wrapper  .qc_video_bubble_logo_img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 100%;
+  border: 3px solid #1e73be;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.qc_video_bubble_wrapper.qc_video_bubble_wrapper-full .qc_video_bubble_logo_img {
+ display: none;
+}
+.qc_video_bubble_wrapper.qc_video_bubble_wrapper-full:hover .qc_video_bubble_full-play.qcld_active,
+.qc_video_bubble_wrapper.qc_video_bubble_wrapper-full:hover .qc_video_bubble_full-pause.qcld_active {
+ display: flex !important;
+}
+
+
+
+@media only screen and (max-width: 575px) {
+  .qc_video_bubble_wrapper {
+    width: 150px;
+    height: 150px;
+  }
+  .qc_video_bubble_wrapper-full {
+    width: 250px;
+    height: 400px;
+  }
+  /* change button start */
+  .qc_video_bubble_wrapper-full .qc_video_bubble_change-video {
+    padding: 0;
+    flex-direction: column;
+    bottom: 10px;
+  }
+  .qc_video_bubble_change-video > div {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  .qc_video_bubble_wrapper-full [class*="qc_video_bubble_full-"] {
+    width: 30px;
+    height: 30px;
+  }
+  .qc_video_bubble_wrapper-full [class*="qc_video_bubble_full-"] i {
+    font-size: 16px;
+  }
+  .qc_video_bubble_wrapper-full .qc_video_bubble_full-play {
+    width: 40px;
+    height: 40px;
+  }
+  /* change button end */
+}
+
+@media only screen and (max-width: 450px) {
+  .qc_video_bubble_wrapper {
+    width: 135px;
+    height: 135px;
+  }
+  .qc_video_bubble_wrapper-full {
+    width: 200px;
+    height: 350px;
+  }
+}
